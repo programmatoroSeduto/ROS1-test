@@ -9,8 +9,8 @@ rospy.init_node( "test_param_server_py" )
 
 # elimina le variabili se sono definite, e in caso eliminale
 if ( rospy.has_param( "test_name" ) ):
-	rospy.loginfo( "deleting: /name" )
-	rospy.delete_param( "/name" )
+	rospy.loginfo( "deleting: /test_name" )
+	rospy.delete_param( "/test_name" )
 
 if ( rospy.has_param( "/test_dict/n1" ) ):
 	rospy.loginfo( "deleting namespace: /test_dict/*" )

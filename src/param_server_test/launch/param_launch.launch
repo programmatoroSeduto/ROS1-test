@@ -1,0 +1,4 @@
+<launch>
+	<rosparam command="load" file="$(find param_server_test)/config/params.yaml" />
+	<node pkg="param_server_test" name="param_server_test_1" type="param_server_test_1.py" required="true" output="screen"/>
+</launch>
