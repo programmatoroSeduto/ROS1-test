@@ -1,2 +1,2 @@
-
--DCATKIN_DEVEL_PREFIX=/home/test_ws/devel -DCMAKE_INSTALL_PREFIX=/home/test_ws/install -G Unix Makefiles
+param_server_test
+-DCATKIN_DEVEL_PREFIX=/root/ROS1-test/devel -DCMAKE_INSTALL_PREFIX=/root/ROS1-test/install -G Unix Makefiles

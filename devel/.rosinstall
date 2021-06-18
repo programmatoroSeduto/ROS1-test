@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/test_ws/devel/setup.sh
+    local-name: /root/ROS1-test/devel/setup.sh

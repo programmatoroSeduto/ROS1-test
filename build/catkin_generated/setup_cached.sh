@@ -7,9 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/test_ws/devel:$CMAKE_PREFIX_PATH"
-export PWD='/home/test_ws/build'
-export ROSLISP_PACKAGE_DIRECTORIES="/home/test_ws/devel/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_MAVEN_DEPLOYMENT_REPOSITORY='/home/test_ws/devel/share/maven'
-export ROS_MAVEN_PATH="/home/test_ws/devel/share/maven:$ROS_MAVEN_PATH"
-export ROS_PACKAGE_PATH="/home/test_ws/src:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/root/ROS1-test/devel:$CMAKE_PREFIX_PATH"
+export PWD='/root/ROS1-test/build'
+export ROSLISP_PACKAGE_DIRECTORIES="/root/ROS1-test/devel/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/root/ROS1-test/src:$ROS_PACKAGE_PATH"
