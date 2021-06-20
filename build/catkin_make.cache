@@ -1,2 +1,2 @@
-param_server_test
+movebase_test:param_server_test
 -DCATKIN_DEVEL_PREFIX=/root/ROS1-test/devel -DCMAKE_INSTALL_PREFIX=/root/ROS1-test/install -G Unix Makefiles

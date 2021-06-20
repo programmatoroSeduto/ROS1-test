@@ -131,6 +131,7 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/root/ROS1-test/build/gtest/cmake_install.cmake")
+  include("/root/ROS1-test/build/movebase_test/cmake_install.cmake")
   include("/root/ROS1-test/build/param_server_test/cmake_install.cmake")
 
 endif()
